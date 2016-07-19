@@ -9,7 +9,7 @@ The root URL of all api calls will be:
 
 The qualify api will start with
 
-   /qualify
+    /qualify
 
 Issuing a GET to /qualify will return a schema of the expexted fields and their types.
 
@@ -41,7 +41,7 @@ mobilePhone | string | yes | Mobile Phone
 businessStartDate | number | yes | Business Start Date
 loanAmount | number | yes | Loan Amount
 loanUse | string | yes | Loan Use
-monthlySalesRevenue | number | yes Monthly Sales Revenue
+monthlySalesRevenue | number | yes | Monthly Sales Revenue
 acceptRunCreditCheck| boolean | yes | AcceptRunCreditCheck
 
 ## Check for Exiting
