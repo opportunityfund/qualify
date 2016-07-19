@@ -28,20 +28,20 @@ The web API / web services stack can be build with either C# or Node.js, TBD
 
 The fields will collect are:
 
-fieldName type required caption
-First Name
-Last Name
-Language Preference
-Business Name
-Business Zip Code
-Business Type
-Business Email
-Mobile Phone
-Business Start Date
-Loan Amount
-Loan Use
-Monthly Sales Revenue
-AcceptRunCreditCheck
+Field Name | Type | Required | Caption
+firstName | string | yes | First Name
+lastName | string | yes | Last Name
+language | string | no | Language Preference
+businessName | string | yes | Business Name
+businessZipCode | string | yes | Business Zip Code
+businessType | string | no | Business Type
+businessEmail | string | yes | Business Email
+mobilePhone | string | yes | Mobile Phone
+businessStartDate | number | yes | Business Start Date
+loanAmount | number | yes | Loan Amount
+loanUse | string | yes | Loan Use
+monthlySalesRevenue | number | yes Monthly Sales Revenue
+acceptRunCreditCheck| boolean | yes | AcceptRunCreditCheck
 
 ## Check for Exiting
 We will first check for existing records in our CRM by name, business name, email, and phone number.  
