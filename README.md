@@ -29,6 +29,7 @@ The web API / web services stack can be build with either C# or Node.js, TBD
 The fields will collect are:
 
 Field Name | Type | Required | Caption
+| --- | --- | --- | --- |
 firstName | string | yes | First Name
 lastName | string | yes | Last Name
 language | string | no | Language Preference
